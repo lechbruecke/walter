@@ -1,0 +1,176 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{font-family: 'PT Sans', sans-serif;}
+.suche-text{
+    width: 100%;
+    border: none;
+    padding: 5px 5px 5px 10px;
+    border-radius: 3px 0 0 3px;
+    color: blue;
+}
+.suche-text::placeholder{
+    color: blue;
+    font-size: 12px;
+}
+.suche-text:focus{    
+    outline: 1px solid blue;
+    outline-offset: -5px;
+}
+.suche-form{
+    display: flex;
+}
+.suche-taste{
+    background-color: green; color:white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 0 3px 3px 0; 
+    font-size: 20px; font-weight: bold;
+}
+.suche-taste:focus{outline: none;}
+header{
+    background-color: lightgray;
+    padding-top: 50px;
+}
+.handy{
+    display: flex; align-items: center; justify-content: flex-end;
+}
+.ware{
+    cursor: pointer;
+    padding: 16px 20px;
+    background-color: green; 
+    color: white;
+}
+.menu{
+    display: flex; align-items: center; flex-wrap: wrap;
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 120px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a i {
+    color: green;
+    margin-right: 5px;
+}
+.wagen{ 
+    cursor: pointer;
+    position: relative;
+    background-color: green;
+    color: white;
+    width: 200px;
+    display: flex; justify-content: center; align-items: center;
+}
+.lehr{
+    position: absolute; top: 50px; right: 12px;
+    z-index: 5;
+    width: 320px; 
+    padding: 50px;
+    background-color: DarkGreen; color: white;
+    text-align: center;
+}
+.menu a:hover{
+    background-color:red;
+}
+header .row:first-child{align-items: center;}
+header .row:last-child{font-size: 12px;}
+
+.category{
+    background-color: whitesmoke;
+    padding: 0; margin: 0;
+}
+.category li{
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+.category li:last-child{
+    border: none;
+}
+.category a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding-left: 20px;
+    height: 50px;
+    display: flex; align-items: center;
+}
+.category span {
+    width: 100%;
+}
+.category i{
+    margin-right: 20px;
+}
+.category span:hover{
+    color: blue;
+}
+
+
+
+
+
+.slider{
+position: relative; 
+/* height: 350px; */
+}
+.slide{ 
+position: absolute; 
+/* height: 100%; */
+display: flex; justify-content: center; align-items: center;
+flex-wrap: wrap;
+background-color: lightgray;
+padding: 20px;
+}
+.slide img{
+    flex: 6;
+    min-width: 300px;
+}
+.beschreibung{
+    flex: 4;
+    padding: 0 40px;
+    min-width: 200px;
+}
+
+.weiter, .zurueck{
+    position: absolute; 
+    /* top: calc(50% - 15px); */
+    width: 30px; height: 30px;
+    color: white; background-color: black;
+    border-radius: 50%;
+    display: flex; justify-content: center; align-items: center;
+}
+.zurueck{
+    left: 5%;
+}
+.weiter{
+    right: 5%;
+}
+.mehr{
+    text-decoration: none;
+    color: white; background-color: black;
+    display: flex; justify-content: center; align-items: center;
+    height: 50px; width: 150px;
+    font-weight:bold;
+}
+.mehr:hover{
+    color: white;
+}
+.beschreibung h5{
+    color: green;
+    font-weight:bold;
+}
+
+
+
+.slide section{
+    height: 306px; width: 476px;
+    display: flex; justify-content: center; align-items: center;
+}

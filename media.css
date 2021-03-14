@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+    .menu li {width: 100%; height: 50px; display: flex; justify-content: center; align-items: center;}
+    .header-menu {flex-wrap: wrap;}
+    .wagen {width: 100%; padding: 13px 0;}
+    .suche-form{margin: 16px 0;}
+    header{padding-top: 16px;}
+    .menu a{padding: 0;}
+    .menu li:hover{background-color:red;}
+    .ware{display: flex; justify-content: center; align-items: center;}
+    .ware i{margin-right: 10px;}
+    .category a{justify-content: center;}
+}
+
+ 
